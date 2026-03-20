@@ -7,9 +7,9 @@ public class Main {
         int year = sc.nextInt();
 
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-            System.out.println(year + " is a Leap Year.");
+            System.out.println(year + " is a Leap Year");
         } else {
-            System.out.println(year + " is Not a Leap Year.");
+            System.out.println(year + " is Not a Leap Year");
         }
 
         sc.close();
